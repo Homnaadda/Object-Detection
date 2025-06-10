@@ -1,4 +1,4 @@
-# Enhanced Real-Time Object Detection with OpenCV and MobileNet SSD
+# Real-Time Object Detection with OpenCV and MobileNet SSD
 
 ![Object Detection Demo](https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=800)
 

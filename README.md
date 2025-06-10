@@ -1,6 +1,6 @@
 # Real-Time Object Detection with OpenCV and MobileNet SSD
 
-![Object Detection Demo](https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=800)
+![Object Detection Demo](Img/person%20detection.png)
 
 ## 🎯 Overview
 
@@ -99,11 +99,15 @@ The system can detect the following 20 object classes:
 - Confidence scores for each detection
 - Color-coded labels for different object classes
 
+![Person and Bottle Detection](Img/Person%20and%20bottel%20detection.png)
+
 ### 2. Performance Statistics
 - Current and average FPS
 - Frame count and runtime
 - Number of unique objects detected
 - Maximum count for each object type
+
+![Terminal Output](Img/Terminal%20output.png)
 
 ### 3. File Outputs
 
@@ -111,6 +115,8 @@ The system can detect the following 20 object classes:
 - High-quality captures of detection frames
 - Timestamped filenames
 - Includes all visual overlays
+
+![Cat Detection](Img/cat%20image%20detection.png)
 
 #### Video Recordings (`recordings/`)
 - Full detection sessions with overlays
@@ -132,6 +138,12 @@ Object-Detection/
 ├── MobileNetSSD_deploy.prototxt.txt # Network architecture
 ├── MobileNetSSD_deploy.caffemodel   # Pre-trained weights
 ├── README.md                        # This file
+├── presentation_content.md          # Detailed presentation
+├── Img/                            # Sample output images
+│   ├── person detection.png
+│   ├── cat image detection.png
+│   ├── Person and bottel detection.png
+│   └── Terminal output.png
 ├── detections/                      # Screenshots (auto-created)
 ├── recordings/                      # Video recordings (auto-created)
 └── logs/                           # Detection logs (auto-created)
@@ -250,4 +262,22 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Made with ❤️ for the computer vision community**
 
-![Detection Example](https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800)
+## 📸 Sample Detection Results
+
+The system successfully detects various objects in real-time scenarios:
+
+### Person Detection
+![Person Detection Example](Img/person%20detection.png)
+*Real-time person detection with confidence scores and bounding boxes*
+
+### Multi-Object Detection
+![Person and Bottle Detection](Img/Person%20and%20bottel%20detection.png)
+*Simultaneous detection of multiple object classes (person and bottle)*
+
+### Animal Detection
+![Cat Detection Example](Img/cat%20image%20detection.png)
+*Accurate detection of animals with high confidence scores*
+
+### System Performance
+![Terminal Output](Img/Terminal%20output.png)
+*Console output showing system performance metrics and detection statistics*
